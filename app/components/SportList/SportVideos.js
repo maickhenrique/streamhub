@@ -1,4 +1,3 @@
-// SportVideos.js
 import React, { useEffect, useState } from 'react';
 import ListSportVideos from '../../../api/listSportVideo';
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
