@@ -50,10 +50,10 @@ const SportVideos = () => {
     <Container>
         <SearchInput onSearch={searchVideos} />
         <h1 className='title-sports'>Em destaque</h1>
-        <Row>
+        <Row xs={1} md={2} lg={3} xl={4} xxl={4}>
             {visibleVideos.map(video => (
-                <Col key={video.uri} xs={4} style={{marginBottom:'50px'}}>
-                <Card className="h-100">
+                <Col key={video.uri} style={{marginBottom:'20px'}}>
+                <Card>
                     <Card.Img variant="top" src={video.pictures.base_link} />
                     <Card.Body className="d-flex flex-column">
                     <Card.Title className='title-video'>{video.name}</Card.Title>
@@ -64,7 +64,7 @@ const SportVideos = () => {
             ))}
         </Row>
       {loadMoreVisible && (
-        <Row className="justify-content-center mt-3" style={{width: '200px', margin: 'auto'}}>
+        <Row className="justify-content-center mt-3">
           <Button variant="outline-dark" onClick={loadMoreVideos} style={{marginBottom: '20px'}} >Carregar Mais</Button>
         </Row>
       )}

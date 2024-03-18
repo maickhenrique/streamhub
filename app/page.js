@@ -10,10 +10,10 @@ const Home = () => {
     <div className="page-container">
       <Container fluid>
         <Row>
-          <Col xs={3}>
+          <Col xs={12} md={3}>
             <VerticalMenu />
           </Col>
-          <Col xs={9}>
+          <Col xs={12} md={9}>
             <Sports />
           </Col>
         </Row>

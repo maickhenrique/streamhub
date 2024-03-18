@@ -15,27 +15,7 @@ const VerticalMenu = () => {
             <MdOutlineSportsSoccer /> &nbsp;Esportes
           </a>
         </li>
-        {/* <li className="nav-item">
-          <a className="nav-link" href="#">Em Alta</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Esportes</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Filmes</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Ao vivo</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Jogos</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Notícias</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">Estudos</a>
-        </li> */}
+        {/* Outros itens do menu */}
       </ul>
       <div className="text-center py-4">
         <Button variant="outline-dark">Adicionar conteúdo</Button>
