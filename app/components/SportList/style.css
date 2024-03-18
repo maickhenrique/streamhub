@@ -1,0 +1,59 @@
+.banner-container {
+    position: relative;
+    padding: 0;
+}
+
+.banner-row {
+    margin: 0;
+}
+
+.banner-overlay {
+    position: relative;
+    top: 70%; /* Ajuste este valor conforme necessário */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('https://wallpaperset.com/w/full/e/e/5/351878.jpg'); /* Link da imagem */
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    opacity: 0.7;
+}
+
+.banner-overlay h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    background-color: rgba(241, 237, 237, 0.534);
+}
+
+.banner-overlay p {
+    font-size: 24px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.title-sports {
+    margin:25px 0;
+    color:#323334;
+    font-weight: bold;
+}
+
+.btn-play {
+    font-size: 50px;
+    margin: auto;
+}
+
+.title-video {
+    text-align: center;
+    font-size: 18px;
+    color:#3A5161;
+}
+
+.conteudo {
+    background-color: #f9fafb;
+}

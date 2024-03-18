@@ -1,0 +1,26 @@
+.menu {
+    width: 330px;
+    min-height: 100vh;
+    overflow-y: auto;
+    margin-left: -12px;
+    padding: 0;
+}
+
+.logo {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: fantasy;
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    margin-left: 20px;
+    font-size: 18px;
+    color: #323334;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    color: #323334;
+    text-decoration: underline;
+}
